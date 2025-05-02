@@ -14,6 +14,9 @@ A C++ project demonstrating object-oriented programming (OOP) principles, includ
 - **Abstraction**: Methods like `enrollInClass()` and `displayAllEvaluations()` hide implementation details.
 - **Pointers**: Use of `Teacher*` and `Student*` avoids object slicing and supports dynamic allocation, as noted in the code.
 
+## Purpose
+Developed as part of my C++ learning journey to demonstrate mastery of OOP concepts. This project showcases my ability to design and implement complex systems using pointers, vectors, and inheritance, building on projects like `RestaurantInheritance` and `BankSystem`.
+
 ## How to Run
 ```bash
 g++ src/mainReviewAbstraction.cpp src/fns_*.cpp -I include -o school
@@ -63,8 +66,6 @@ Teacher: Emmy Noether
 Teacher: Albert Einstein
 - 100 | Einstein is an amazing professor! | No feedback needed!
 
-## Purpose
-Developed as part of my C++ learning journey to demonstrate mastery of OOP concepts. This project showcases my ability to design and implement complex systems using pointers, vectors, and inheritance, building on projects like `RestaurantInheritance` and `BankSystem`.
 
 ## Author
 Rodrigo Casio ([View my Github profile](https://github.com/rodrigcasio))
