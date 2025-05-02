@@ -63,8 +63,8 @@ Teacher: Emmy Noether
 Teacher: Albert Einstein
 - 100 | Einstein is an amazing professor! | No feedback needed!
 
-## Purpose 
-Developed as part of my C++ OOP course to demonstrate mastery of OOP concepts. This project showcases my ability to design and implement complex systems using pointers, vectors, and inheritance, building on projects like RestaurantInheritance and BankSystem.
+## Purpose
+Developed as part of my C++ learning journey to demonstrate mastery of OOP concepts. This project showcases my ability to design and implement complex systems using pointers, vectors, and inheritance, building on projects like `RestaurantInheritance` and `BankSystem`.
 
 ## Author
 Rodrigo Casio ([View my Github profile](https://github.com/rodrigcasio))
