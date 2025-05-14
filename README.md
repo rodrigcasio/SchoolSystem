@@ -25,6 +25,7 @@ g++ src/mainReviewAbstraction.cpp src/fns_*.cpp -I include -o school
 ## Sample Output
 
 ### Classroom Assignments
+```
 Leonhard Euler's classroom will be #1002 for this year's Mathematics class!
 
 Marie Curie's classroom will be #1003 for this year's Science class!
@@ -32,8 +33,9 @@ Marie Curie's classroom will be #1003 for this year's Science class!
 Emmy Noether's classroom will be #1004 for this year's Mathematics class!
 
 Albert Einstein's classroom will be #1005 for this year's Science class!
-
+```
 ### Teacher Introductions
+```
 Leonhard Euler: I've been teaching Mathematics for 15 years.
 
 Marie Curie: My favorite Science topic is Radioactivity.
@@ -50,8 +52,9 @@ Rocio Garcia enrolled in Science with Marie Curie (Room 1003)
 Alex Chen enrolled in Mathematics with Emmy Noether (Room 1004)
 
 Priya Sharma enrolled in Science with Albert Einstein (Room 1005)
-
+```
 ### Evaluations 
+```
 --All Evaluations at University of Alberta-- :
 
 Teacher: Leonhard Euler
@@ -65,7 +68,6 @@ Teacher: Emmy Noether
   
 Teacher: Albert Einstein
 - 100 | Einstein is an amazing professor! | No feedback needed!
-
-
+```
 ## Author
 Rodrigo Casio ([View my Github profile](https://github.com/rodrigcasio))
