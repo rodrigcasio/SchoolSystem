@@ -43,8 +43,9 @@ Marie Curie: My favorite Science topic is Radioactivity.
 Emmy Noether: My favorite Mathematics topic is Abstract Algebra.
 
 Albert Einstein: My favorite Science topic is Relativity.
-
+```
 ### Student Enrollments 
+```
 Rodrigo Casio enrolled in Mathematics with Leonhard Euler (Room 1002)
 
 Rocio Garcia enrolled in Science with Marie Curie (Room 1003)
