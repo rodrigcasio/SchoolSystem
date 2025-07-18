@@ -1,6 +1,6 @@
-# School System: C++ OOP Project
+# School System (C++)
 
-A C++ project demonstrating object-oriented programming (OOP) principles, including polymorphism, encapsulation, and abstraction. The system models a school (`University of Alberta`) managing teachers and students, with features for assigning classrooms, evaluating teachers, enrolling students, and displaying information.
+This is a small C++ project I made to practice object-oriented programming (OOP) ideas like classes, inheritance, and pointers. The program simulates a simple school system where you can add teachers and students, assign classrooms, enroll students, and see teacher evaluations.
 
 ## Features
 - **Teachers**: Base `Teacher` class with derived `MathTeacher` and `ScienceTeacher` classes, showcasing polymorphism via virtual `chat()` methods.
@@ -8,20 +8,31 @@ A C++ project demonstrating object-oriented programming (OOP) principles, includ
 - **Students**: Students enroll in teachers’ classes, tracked via `Teacher*` pointers, with formatted enrollment display.
 - **School**: Manages teachers and students using `std::vector<Teacher*>` and `std::vector<Student*>`, with methods for adding, enrolling, and displaying data.
 
-## OOP Principles
-- **Polymorphism**: Virtual `chat()` method overridden in `MathTeacher` (e.g., "teaching for 15 years") and `ScienceTeacher` (e.g., "favorite topic Energy").
-- **Encapsulation**: Private data (e.g., `Teacher::name`, `Student::enrolledTeachers`) accessed via getters/setters.
-- **Abstraction**: Methods like `enrollInClass()` and `displayAllEvaluations()` hide implementation details.
-- **Pointers**: Use of `Teacher*` and `Student*` avoids object slicing and supports dynamic allocation, as noted in the code.
+## Pointers and OOP Concepts (in simple terms)
+
+- **Pointers**: I used pointers (like `Teacher*` and `Student*`) so I could keep track of teachers and students without copying them. This also helps when you want to use inheritance and avoid problems like object slicing.
+- **Polymorphism**: Some methods (like `chat()`) are virtual, so each teacher type can have their own version. This lets the program call the right method for each teacher, even if you only know the base type.
+- **Encapsulation**: Most data is private, and you use getters and setters to access it. This keeps things organized and safe.
+- **Abstraction**: Some methods hide the details of how things work, so you can use them without worrying about the code inside.
+
+These ideas helped me learn how to organize code and use OOP in a small project.
 
 ## Purpose
-Developed as part of my C++ learning journey to demonstrate mastery of OOP concepts. This project showcases my ability to design and implement complex systems using pointers, vectors, and inheritance, building on projects like `RestaurantInheritance` and `BankSystem`.
+
+I made this project to get better at using pointers, classes, and OOP in C++. It helped me understand how to organize code for a small system and how to use inheritance and virtual methods.
 
 ## How to Run
-```bash
-g++ src/mainReviewAbstraction.cpp src/fns_*.cpp -I include -o school
-./school
-```
+
+1. Make sure you have a C++ compiler (like g++) installed.
+2. Compile the code:
+   ```
+   g++ src/mainReviewAbstraction.cpp src/fns_*.cpp -I include -o school
+   ```
+3. Run the program:
+   ```
+   ./school
+   ```
+
 ## Sample Output
 
 ### Classroom Assignments
@@ -71,4 +82,6 @@ Teacher: Albert Einstein
 - 100 | Einstein is an amazing professor! | No feedback needed!
 ```
 ## Author
-Rodrigo Casio ([View my Github profile](https://github.com/rodrigcasio))
+
+Rodrigo Casio  
+[My GitHub Profile](https://github.com/rodrigcasio)
